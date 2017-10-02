@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 import com.tech.springbootmangodb.Repository.AppartmentRepository;
 import com.tech.springbootmangodb.domain.Appartment;
-
+//comfig
 @EnableMongoRepositories(basePackageClasses = AppartmentRepository.class)
 @Configuration
 public class MongoDBConfig {
